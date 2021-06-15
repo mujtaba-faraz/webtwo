@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: algerianregular;
+  src: url("alger.ttf");
+}
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 166, 0, 0.329)),
+    url(Images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.banner-text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+}
+.banner-text h1 {
+  font-size: 90px;
+  font-family: algerianregular;
+}
+.banner-text p {
+  font-style: italic;
+  font-size: 22px;
+}
+.banner-btn {
+  margin: 30px auto;
+}
+.banner-btn a {
+  margin: 0px 10px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#sidenav {
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  background: tomato;
+  top: 0;
+  right: -200px;
+  transition: 0.4s;
+}
+#sidenav ul li {
+  list-style: none;
+  margin: 30px 20px;
+}
+#sidenav ul li a {
+  text-decoration: none;
+  color: white;
+}
+#menubtn img {
+  height: 25px;
+  background: tomato;
+  border-radius: 2px;
+  width: 30px;
+  text-align: center;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1;
+  color: white;
+  padding: 6px;
+}
+@media (min-width: 100px) and (max-width: 500px) {
+  .banner-text h1 {
+    font-size: 50px;
+    font-family: algerianregular;
+  }
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+  }
+}
+#features {
+  width: 100%;
+}
+.title-text {
+  text-align: center;
+  padding: 70px 0px;
+}
+.title-text p {
+  font-weight: bold;
+  font-size: 20px;
+  color: tomato;
+}
+.title-text h1 {
+  font-size: 40px;
+}
+.features-box {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  /* align-items: center; */
+}
+.features {
+  /* flex-basis: 50%; */
+}
+.features h1 {
+  color: tomato;
+}
+.features-img {
+  /* flex-basis: 50%; */
+  margin: auto;
+}
+.features-img img {
+  width: 30%;
+  border-radius: 10px;
+}
+.features-desk {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.features-text p {
+  font-weight: bold;
+  font-size: 20px;
+}
